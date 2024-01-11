@@ -191,7 +191,8 @@ struct CreateWishView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(backgroundColor)
-        .ignoresSafeArea(edges: [.leading, .trailing])
+        .ignoresSafeArea(edges: [.leading, .trailing, .bottom])
+        .navigationTitle("Create New Feature")
         .toolbarKeyboardDoneButton()
     }
 
