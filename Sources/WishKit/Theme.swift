@@ -24,6 +24,9 @@ public struct Theme {
 
     /// The color of the title and description of a feature.
     public var textColor: Scheme?
+    
+    /// The tint color of the cursor for text fields
+    public var cursorTintColor: Scheme?
 
     init(
         primaryColor: Color = Theme.systemGreen,
